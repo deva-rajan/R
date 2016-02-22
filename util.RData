@@ -1,0 +1,19 @@
+correlatedPairs<-function(inputdf,cor_threshold){
+indices<-which((inputdf>=cor_threshold | inputdf<= -cor_threshold) & inputdf!=1,arr.ind=TRUE)
+row_names<-as.vector(rownames(inputdf)[indices[,1]])
+col_names<-as.vector(colnames(inputdf)[indices[,2]])
+row_col<-as.vector(paste(row_names,col_names,sep=","))
+#creating an empty vector to store variables temporarily to remove duplicate combinations
+temp_row_col<-vector(mode='character',length=0)
+for(temp in row_col){
+    splitted<-strsplit(temp,',')
+    reversed<-paste(rev(splitted[[1]]),collapse=",")
+    if(!(reversed %in% temp_row_col)){
+       temp_row_col<-c(temp_row_col,temp)
+    }
+}
+row_col<-temp_row_col
+rm(temp_row_col)
+cat("Correlated variables:",row_col)
+return(row_col)
+}
