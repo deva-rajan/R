@@ -1,0 +1,58 @@
+
+########################################
+
+No of test cases =  1225 
+Correct predictions =  654 
+Accuracy =  Sigma Value 0.1 53.38776 
+
+########################################
+
+No of test cases =  1225 
+Correct predictions =  684 
+Accuracy =  Sigma Value 0.2 55.83673
+
+##########################################
+
+No of test cases =  1225 
+Correct predictions =  691 
+Accuracy =  Sigma Value 0.3 56.4081
+
+############################################
+
+No of test cases =  1225 
+Correct predictions =  683 
+Accuracy =  Sigma Value 0.4 55.7551
+
+############################################
+No of test cases =  1225 
+Correct predictions =  676 
+Accuracy =  Sigma Value 0.5 55.18367
+
+###########################################
+
+No of test cases =  1225 
+Correct predictions =  672 
+Accuracy =  Sigma Value 0.6 54.85714 
+
+#############################################
+
+No of test cases =  1225 
+Correct predictions =  666 
+Accuracy =  Sigma Value 0.7 54.36735
+
+#############################################
+
+No of test cases =  1225 
+Correct predictions =  657 
+Accuracy =  Sigma Value 0.8 53.63265
+##############################################
+
+No of test cases =  1225 
+Correct predictions =  642 
+Accuracy =  Sigma Value 0.9 52.40816
+
+###############################################
+
+
+
+
