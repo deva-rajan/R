@@ -1,4 +1,3 @@
-
 library(pnn)
 
 normalize <- function(x) { 
