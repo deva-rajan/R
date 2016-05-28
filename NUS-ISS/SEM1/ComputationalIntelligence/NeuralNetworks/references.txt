@@ -1,0 +1,9 @@
+1.https://www.researchgate.net/publication/281968403_Hybrid_neural_networks_as_prediction_models
+
+kohonen-R:
+1. https://cran.r-project.org/web/packages/kohonen/kohonen.pdf
+2. Journal of Statistical Software-(Self- and Super-organizing Maps in R: The kohonen Package)
+
+Stacking weka:
+1. http://www.machine-learning.martinsewell.com/ensembles/stacking/Wolpert1992.pdf
+

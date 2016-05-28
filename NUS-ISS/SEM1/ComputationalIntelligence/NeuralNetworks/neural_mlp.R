@@ -14,5 +14,5 @@ testing <- wine_data[-positions,1:length-1]
 result = wine_data[-positions,]
 result$actual = result[,length]
 
-mlp<-mlptrain(as.matrix(training[,2:12]),c(3,3),as.matrix(training$quality),visual=FALSE)
-op<-mlp(as.matrix(testing[,1:11]),mlp$weight,mlp$dist,mlp$neurons,c(1,1,1))
+mlp<-mlptrain(as.matrix(training[,2:12]),c(3,3),out=as.matrix(training[,1]),it=10,visual=FALSE)
+op<-mlp(as.matrix(testing),mlp$weight,mlp$dist,mlp$neurons,c(1,1,1))

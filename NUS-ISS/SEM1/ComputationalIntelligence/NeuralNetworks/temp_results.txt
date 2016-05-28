@@ -1,0 +1,12 @@
+RBF networks ,bagging-11
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g   <-- classified as
+    0    0    9    9    2    0    0 |    a = 3
+    0    8  102   51    2    0    0 |    b = 4
+    0    5  886  546   20    0    0 |    c = 5
+    0    0  407 1591  200    0    0 |    d = 6
+    0    0   32  532  316    0    0 |    e = 7
+    0    0    3  100   72    0    0 |    f = 8
+    0    0    0    1    4    0    0 |    g = 9
