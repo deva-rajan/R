@@ -10,6 +10,5 @@ train_ind <- sample(index,.75*nrow(wine_data))
 train<-wine_data[train_ind,]
 test<-wine_data[-train_ind,]
 
-rbf.model<-rbf(as.matrix(train[,1:11]),as.matrix(train$quality),maxit=100,learnFuncParams=c(0.4,1,1.6,2.2,0.8))
-predictions<-round(predict(rbf.model,test[,1:11]))
+rbf.model<-rbf(as.matrix(train[,1:11]),as.matrix(train$quality),maxit=100,learnFuncParams=c(0.4,1,1.6,2.2,0.8),inputsTest = as.matrix(test[,1:11]),targetsTest = as.matrix(test[,12]))
 cat("Accuracy of rbf is:",length(test$quality[predictions==test$quality])/length(test$quality)*100)
